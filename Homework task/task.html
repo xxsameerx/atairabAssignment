@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+</head>
+<body>
+
+  <h1>Application Form</h1>
+
+  <form>
+
+    <fieldset>
+      <legend>Personal Information</legend>
+      First Name: <input type="text" name="first_name"><br>
+      Last Name: <input type="text" name="last_name"><br>
+      Middle Name: <input type="text" name="middle_name"><br>
+      Gender: 
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other<br>
+      Date of Birth: <input type="date" name="dob" min="1980-01-01" max="2020-01-01"><br>
+      Age: <input type="number" name="age"><br>
+      Nationality: <input type="text" name="nationality"><br>
+      Marital Status:
+      <select name="marital_status">
+        <option>Single</option>
+        <option>Married</option>
+        <option>Divorced</option>
+      </select><br>
+      Upload Photo: <input type="file" name="photo"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Details</legend>
+      Email: <input type="email" name="email"><br>
+      Phone: <input type="tel" name="phone"><br>
+      Alternate Phone: <input type="tel" name="alt_phone"><br>
+      Address Line 1: <input type="text" name="addr1"><br>
+      Address Line 2: <input type="text" name="addr2"><br>
+      City: <input type="text" name="city"><br>
+      State: <input type="text" name="state"><br>
+      Zip Code: <input type="text" name="zip"><br>
+      Country:
+      <select name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Canada</option>
+        <option>Other</option>
+      </select><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Educational Qualifications</legend>
+      High School Name: <input type="text" name="hs_name"><br>
+      Year of Passing: <input type="number" name="hs_year"><br>
+      Percentage: <input type="text" name="hs_percent"><br>
+
+      College Name: <input type="text" name="college"><br>
+      Degree:
+      <select name="degree">
+        <option>Bachelor's</option>
+        <option>Master's</option>
+        <option>Ph.D</option>
+      </select><br>
+      Field of Study: <input type="text" name="field"><br>
+      Year of Graduation: <input type="number" name="grad_year"><br>
+      GPA/Percentage: <input type="text" name="gpa"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Employment History</legend>
+      Company 1: <input type="text" name="company1"><br>
+      Role: <input type="text" name="role1"><br>
+      Duration: <input type="text" name="duration1"><br>
+      Responsibilities: <textarea name="resp1"></textarea><br>
+
+      Company 2: <input type="text" name="company2"><br>
+      Role: <input type="text" name="role2"><br>
+      Duration: <input type="text" name="duration2"><br>
+      Responsibilities: <textarea name="resp2"></textarea><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Skills</legend>
+      Technical Skills: <input type="text" name="tech_skills"><br>
+      Soft Skills: <input type="text" name="soft_skills"><br>
+      Languages Known:
+      <select name="languages">
+        <option value="1">English</option>
+        <option value="2">Hindi</option>
+        <option value="3">French</option>
+        <option value="4">German</option>
+      </select><br>
+      Certifications: <input type="text" name="certs"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Online Profiles</legend>
+      LinkedIn: <input type="url" name="linkedin"><br>
+      GitHub: <input type="url" name="github"><br>
+      Portfolio Website: <input type="url" name="portfolio"><br>
+      Personal Blog: <input type="url" name="blog"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Other Information</legend>
+      Willing to Relocate:
+      <input type="radio" name="relocate" value="yes"> Yes
+      <input type="radio" name="relocate" value="no"> No<br>
+
+      Expected Salary: <input type="number" name="salary"><br>
+      Preferred Location: <input type="text" name="pref_location"><br>
+      Available From: <input type="date" name="availability" min="2001-01-01" max="2019-01-01"><br>
+      Do you have any criminal convictions?
+      <input type="radio" name="criminal" value="yes"> Yes
+      <input type="radio" name="criminal" value="no"> No<br>
+      Additional Comments: <textarea name="comments"></textarea><br>
+    </fieldset>
+
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Reset Form">
+
+  </form>
+  <hr size="4" color="grey">
+    <div align="center">
+    <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/main.html">Main</a></button>
+    <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/Formatting.html">Quesion 1</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/resume.html" align="center">Quesion 2</a></button> 
+   <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/imagetag.html">Quesion 3</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/product.html">Quesion 4</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/tables.html">Quesion 5</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="../HTMLAssignment01/form.html">Quesion 6</a></button>    
+   <button style="width: 6%; background-color: cyan;"><a href="task.html">Homework Task</a></button>
+    <hr size="4" color="grey">
+   </div>
+</body>
+</html>

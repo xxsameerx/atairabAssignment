@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Working with HTML Form Element</h1>
+    <hr size="4">
+    <div style="width: 60%; margin: auto;">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <!-- Form begins Here -->
+            <form>     
+            <table border="1px" cellspacing="0px" cellpadding="3px" align="center" width="90%">
+                <tr>
+                    <td> <label for="txtname">Customer Name:</label></td>
+                    <td><input type="text" name="txtname" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="txtDob" min="1980-01-01" max="2020-01-01"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <textarea name="txtAddress" rows="6" cols="70" placeholder="Enter Your Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" placeholder="eg.(abc@gmail.com)"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                    <input type="radio" name="rbtnGender" value="Male"><label for="rbtnGender">Male</label>
+                    <input type="radio" name="rbtnGender" value="Female"><label for="rbtnGender">Female</label>
+                    <input type="radio" name="rbtnGender" value="Other"><label for="rbtnGender">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td>
+                        <select name="ddlcity">
+                            <option value="0">Select Your City</option>
+                            <optgroup label="Bihar">
+                            <option value="1">Patna</option>
+                            <option value="4">Gaya</option>
+                            <option value="2">Motihari</option>
+                            <option value="3">Muzzafarpur</option>
+                            </optgroup>
+                            <optgroup label="UP">
+                            <option value="5">Lucknow</option>
+                            <option value="6">Agra</option>
+                            <option value="7">Noida</option>
+                            <option value="8">Prayagraj</option>
+                            </optgroup>
+                            <optgroup label="Telangana">
+                            <option value="9">Hyderabad</option>
+                            <option value="10">Warangal</option>
+                            <option value="11">Nizamabad</option>
+                            <option value="12">Karimnagar</option>
+                            </optgroup>
+                            <optgroup label="Other">
+                            <option value="11">Others</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Languages:</td>
+                    <td>
+                        <select name="ddllang">
+                            <option value="1">--Select Languages--</option>
+                            <option value="2">C</option>
+                            <option value="3">C++</option>
+                            <option value="4">Python</option>
+                            <option value="5">Java</option>
+                            <option value="6">Others</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td></td>
+                    <td >
+                    <input type="submit">
+                    <input type="reset" value="clear">
+                    </td>
+                </tr> 
+                </div>
+            </table>
+            </form>
+            <!-- Form Ends Here -->
+        </fieldset>
+    </div>
+    <hr size="4" color="grey">
+    <div align="center">
+    <button style="width: 6%; background-color: cyan;"><a href="main.html">Main</a></button>
+    <button style="width: 6%; background-color: cyan;"><a href="Formatting.html">Quesion 1</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="resume.html" align="center">Quesion 2</a></button> 
+   <button style="width: 6%; background-color: cyan;"><a href="imagetag.html">Quesion 3</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="product.html">Quesion 4</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="tables.html">Quesion 5</a></button>
+   <button style="width: 6%; background-color: cyan;"><a href="form.html">Quesion 6</a></button>    
+   <button style="width: 6%; background-color: cyan;"><a href="/Homework task/task.html">Homework Task</a></button>
+    <hr size="4" color="grey">
+   </div>
+</body>
+</html>
